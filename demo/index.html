@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Birr Track demo</title>
+<meta name="description" content="A 100-second walkthrough of Birr Track: consent, choosing a bank sender, and turning bank SMS into transactions on the device.">
+<link rel="icon" type="image/png" href="../assets/icon.png">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  .demo { max-width: 760px; padding-top: 32px; }
+  .demo video { display: block; width: min(400px, 100%); margin: 24px auto; border-radius: 20px; border: 1px solid var(--border); background: #000; }
+  .demo ol { color: var(--text-2); padding-left: 22px; }
+  .demo li { margin: 6px 0; }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../"><img src="../assets/icon.png" alt="">Birr Track</a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="optional" href="../">Home</a>
+      <a href="../privacy/">Privacy policy</a>
+      <a href="../terms/">Terms</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap demo">
+  <h1>See Birr Track in action</h1>
+  <p class="lead">A 100-second walkthrough on a test phone with sample bank messages. No real personal data is shown.</p>
+  <video controls playsinline preload="metadata" poster="poster.jpg">
+    <source src="birr-track-demo.mp4" type="video/mp4">
+    Your browser can't play this video. <a href="birr-track-demo.mp4">Download it (MP4, 2 MB)</a>.
+  </video>
+  <h2>What the video shows</h2>
+  <ol>
+    <li>Before asking for any permission, the app explains what it reads, why, and that nothing leaves the phone (it has no internet permission).</li>
+    <li>The user agrees and grants SMS and notification access.</li>
+    <li>The user picks which sender to track (telebirr). Other senders, like promotions, are ignored.</li>
+    <li>The app imports that sender's past message and turns it into a transaction: amount, fee, balance and payee.</li>
+    <li>A new bank SMS arrives. It's recorded instantly and a notification asks what it was for; one tap sets the category.</li>
+    <li>The overview and analysis pages show balances and spending.</li>
+  </ol>
+  <p class="note">Direct link to the video file: <a href="birr-track-demo.mp4">birr-track-demo.mp4</a></p>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Birr Track</span>
+    <nav aria-label="Footer">
+      <a href="../">Home</a>
+      <a href="../privacy/">Privacy policy</a>
+      <a href="../terms/">Terms of use</a>
+      <a href="mailto:olanizo.yt@gmail.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
